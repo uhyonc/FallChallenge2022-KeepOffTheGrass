@@ -5,8 +5,8 @@ agents:
 
   -
     name: rust2
-    commandLine: ../keepOffTheGrass/v2/target/debug/keep_off_the_grass
+    commandLine: ../keepOffTheGrass/v2/target/release/keep_off_the_grass
 
   -
     name: rust3
-    commandLine: ../keepOffTheGrass/v3/target/debug/keep_off_the_grass
+    commandLine: ../keepOffTheGrass/v3/target/release/keep_off_the_grass
