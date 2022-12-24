@@ -1,12 +1,12 @@
 agents:
   -
-    name: rust1
-    commandLine: /home/uchung/ws-rust/keepOffTheGrass/target/release/keep_off_the_grass
+    name: current
+    commandLine: ../keepOffTheGrass/current/target/release/keep_off_the_grass
 
   -
     name: rust2
-    commandLine: /home/uchung/ws-rust/keepOffTheGrass2/target/debug/keep_off_the_grass
+    commandLine: ../keepOffTheGrass/v2/target/debug/keep_off_the_grass
 
   -
     name: rust3
-    commandLine: /home/uchung/ws-rust/keepOffTheGrass3/target/debug/keep_off_the_grass
+    commandLine: ../keepOffTheGrass/v3/target/debug/keep_off_the_grass
