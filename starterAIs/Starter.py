@@ -64,7 +64,7 @@ while True:
             if amount > 0:
                 actions.append('SPAWN {} {} {}'.format(amount, tile.x, tile.y))
         if tile.can_build:
-            should_build = False # TODO: pick whether to build recycler here
+            should_build = True # TODO: pick whether to build recycler here
             if should_build:
                 actions.append('BUILD {} {}'.format(tile.x, tile.y))
 
